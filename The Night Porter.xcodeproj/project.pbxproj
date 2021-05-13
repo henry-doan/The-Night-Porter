@@ -1,0 +1,592 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		44CBD749264DE64C0035338B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44CBD748264DE64C0035338B /* AppDelegate.swift */; };
+		44CBD74B264DE64C0035338B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44CBD74A264DE64C0035338B /* SceneDelegate.swift */; };
+		44CBD74D264DE64C0035338B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44CBD74C264DE64C0035338B /* ViewController.swift */; };
+		44CBD750264DE64C0035338B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44CBD74E264DE64C0035338B /* Main.storyboard */; };
+		44CBD752264DE64F0035338B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44CBD751264DE64F0035338B /* Assets.xcassets */; };
+		44CBD755264DE64F0035338B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44CBD753264DE64F0035338B /* LaunchScreen.storyboard */; };
+		44CBD760264DE64F0035338B /* The_Night_PorterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44CBD75F264DE64F0035338B /* The_Night_PorterTests.swift */; };
+		44CBD76B264DE64F0035338B /* The_Night_PorterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44CBD76A264DE64F0035338B /* The_Night_PorterUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		44CBD75C264DE64F0035338B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 44CBD73D264DE64C0035338B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 44CBD744264DE64C0035338B;
+			remoteInfo = "The Night Porter";
+		};
+		44CBD767264DE64F0035338B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 44CBD73D264DE64C0035338B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 44CBD744264DE64C0035338B;
+			remoteInfo = "The Night Porter";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		44CBD745264DE64C0035338B /* The Night Porter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "The Night Porter.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		44CBD748264DE64C0035338B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		44CBD74A264DE64C0035338B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		44CBD74C264DE64C0035338B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		44CBD74F264DE64C0035338B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		44CBD751264DE64F0035338B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		44CBD754264DE64F0035338B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		44CBD756264DE64F0035338B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		44CBD75B264DE64F0035338B /* The Night PorterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "The Night PorterTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		44CBD75F264DE64F0035338B /* The_Night_PorterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = The_Night_PorterTests.swift; sourceTree = "<group>"; };
+		44CBD761264DE64F0035338B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		44CBD766264DE64F0035338B /* The Night PorterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "The Night PorterUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		44CBD76A264DE64F0035338B /* The_Night_PorterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = The_Night_PorterUITests.swift; sourceTree = "<group>"; };
+		44CBD76C264DE64F0035338B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		44CBD742264DE64C0035338B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44CBD758264DE64F0035338B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44CBD763264DE64F0035338B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		44CBD73C264DE64C0035338B = {
+			isa = PBXGroup;
+			children = (
+				44CBD747264DE64C0035338B /* The Night Porter */,
+				44CBD75E264DE64F0035338B /* The Night PorterTests */,
+				44CBD769264DE64F0035338B /* The Night PorterUITests */,
+				44CBD746264DE64C0035338B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		44CBD746264DE64C0035338B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				44CBD745264DE64C0035338B /* The Night Porter.app */,
+				44CBD75B264DE64F0035338B /* The Night PorterTests.xctest */,
+				44CBD766264DE64F0035338B /* The Night PorterUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		44CBD747264DE64C0035338B /* The Night Porter */ = {
+			isa = PBXGroup;
+			children = (
+				44CBD748264DE64C0035338B /* AppDelegate.swift */,
+				44CBD74A264DE64C0035338B /* SceneDelegate.swift */,
+				44CBD74C264DE64C0035338B /* ViewController.swift */,
+				44CBD74E264DE64C0035338B /* Main.storyboard */,
+				44CBD751264DE64F0035338B /* Assets.xcassets */,
+				44CBD753264DE64F0035338B /* LaunchScreen.storyboard */,
+				44CBD756264DE64F0035338B /* Info.plist */,
+			);
+			path = "The Night Porter";
+			sourceTree = "<group>";
+		};
+		44CBD75E264DE64F0035338B /* The Night PorterTests */ = {
+			isa = PBXGroup;
+			children = (
+				44CBD75F264DE64F0035338B /* The_Night_PorterTests.swift */,
+				44CBD761264DE64F0035338B /* Info.plist */,
+			);
+			path = "The Night PorterTests";
+			sourceTree = "<group>";
+		};
+		44CBD769264DE64F0035338B /* The Night PorterUITests */ = {
+			isa = PBXGroup;
+			children = (
+				44CBD76A264DE64F0035338B /* The_Night_PorterUITests.swift */,
+				44CBD76C264DE64F0035338B /* Info.plist */,
+			);
+			path = "The Night PorterUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		44CBD744264DE64C0035338B /* The Night Porter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 44CBD76F264DE64F0035338B /* Build configuration list for PBXNativeTarget "The Night Porter" */;
+			buildPhases = (
+				44CBD741264DE64C0035338B /* Sources */,
+				44CBD742264DE64C0035338B /* Frameworks */,
+				44CBD743264DE64C0035338B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "The Night Porter";
+			productName = "The Night Porter";
+			productReference = 44CBD745264DE64C0035338B /* The Night Porter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		44CBD75A264DE64F0035338B /* The Night PorterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 44CBD772264DE64F0035338B /* Build configuration list for PBXNativeTarget "The Night PorterTests" */;
+			buildPhases = (
+				44CBD757264DE64F0035338B /* Sources */,
+				44CBD758264DE64F0035338B /* Frameworks */,
+				44CBD759264DE64F0035338B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				44CBD75D264DE64F0035338B /* PBXTargetDependency */,
+			);
+			name = "The Night PorterTests";
+			productName = "The Night PorterTests";
+			productReference = 44CBD75B264DE64F0035338B /* The Night PorterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		44CBD765264DE64F0035338B /* The Night PorterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 44CBD775264DE64F0035338B /* Build configuration list for PBXNativeTarget "The Night PorterUITests" */;
+			buildPhases = (
+				44CBD762264DE64F0035338B /* Sources */,
+				44CBD763264DE64F0035338B /* Frameworks */,
+				44CBD764264DE64F0035338B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				44CBD768264DE64F0035338B /* PBXTargetDependency */,
+			);
+			name = "The Night PorterUITests";
+			productName = "The Night PorterUITests";
+			productReference = 44CBD766264DE64F0035338B /* The Night PorterUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		44CBD73D264DE64C0035338B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					44CBD744264DE64C0035338B = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					44CBD75A264DE64F0035338B = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = 44CBD744264DE64C0035338B;
+					};
+					44CBD765264DE64F0035338B = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = 44CBD744264DE64C0035338B;
+					};
+				};
+			};
+			buildConfigurationList = 44CBD740264DE64C0035338B /* Build configuration list for PBXProject "The Night Porter" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 44CBD73C264DE64C0035338B;
+			productRefGroup = 44CBD746264DE64C0035338B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				44CBD744264DE64C0035338B /* The Night Porter */,
+				44CBD75A264DE64F0035338B /* The Night PorterTests */,
+				44CBD765264DE64F0035338B /* The Night PorterUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		44CBD743264DE64C0035338B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44CBD755264DE64F0035338B /* LaunchScreen.storyboard in Resources */,
+				44CBD752264DE64F0035338B /* Assets.xcassets in Resources */,
+				44CBD750264DE64C0035338B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44CBD759264DE64F0035338B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44CBD764264DE64F0035338B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		44CBD741264DE64C0035338B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44CBD74D264DE64C0035338B /* ViewController.swift in Sources */,
+				44CBD749264DE64C0035338B /* AppDelegate.swift in Sources */,
+				44CBD74B264DE64C0035338B /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44CBD757264DE64F0035338B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44CBD760264DE64F0035338B /* The_Night_PorterTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44CBD762264DE64F0035338B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44CBD76B264DE64F0035338B /* The_Night_PorterUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		44CBD75D264DE64F0035338B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 44CBD744264DE64C0035338B /* The Night Porter */;
+			targetProxy = 44CBD75C264DE64F0035338B /* PBXContainerItemProxy */;
+		};
+		44CBD768264DE64F0035338B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 44CBD744264DE64C0035338B /* The Night Porter */;
+			targetProxy = 44CBD767264DE64F0035338B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		44CBD74E264DE64C0035338B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				44CBD74F264DE64C0035338B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		44CBD753264DE64F0035338B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				44CBD754264DE64F0035338B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		44CBD76D264DE64F0035338B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		44CBD76E264DE64F0035338B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		44CBD770264DE64F0035338B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "The Night Porter/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.henry-doan.The-Night-Porter";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		44CBD771264DE64F0035338B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "The Night Porter/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.henry-doan.The-Night-Porter";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		44CBD773264DE64F0035338B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "The Night PorterTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.henry-doan.The-Night-PorterTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/The Night Porter.app/The Night Porter";
+			};
+			name = Debug;
+		};
+		44CBD774264DE64F0035338B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "The Night PorterTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.henry-doan.The-Night-PorterTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/The Night Porter.app/The Night Porter";
+			};
+			name = Release;
+		};
+		44CBD776264DE64F0035338B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "The Night PorterUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.henry-doan.The-Night-PorterUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "The Night Porter";
+			};
+			name = Debug;
+		};
+		44CBD777264DE64F0035338B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "The Night PorterUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.henry-doan.The-Night-PorterUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "The Night Porter";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		44CBD740264DE64C0035338B /* Build configuration list for PBXProject "The Night Porter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44CBD76D264DE64F0035338B /* Debug */,
+				44CBD76E264DE64F0035338B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		44CBD76F264DE64F0035338B /* Build configuration list for PBXNativeTarget "The Night Porter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44CBD770264DE64F0035338B /* Debug */,
+				44CBD771264DE64F0035338B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		44CBD772264DE64F0035338B /* Build configuration list for PBXNativeTarget "The Night PorterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44CBD773264DE64F0035338B /* Debug */,
+				44CBD774264DE64F0035338B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		44CBD775264DE64F0035338B /* Build configuration list for PBXNativeTarget "The Night PorterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44CBD776264DE64F0035338B /* Debug */,
+				44CBD777264DE64F0035338B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 44CBD73D264DE64C0035338B /* Project object */;
+}
