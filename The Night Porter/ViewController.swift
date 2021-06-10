@@ -7,6 +7,7 @@
 // link all the ui stuff appl provided to do ios apps, not just ui but infrastrure too
 // sub view, a view obj inside another one
 // none of the items doesn't have a unique id
+// when draging controls, it doesn't generate swift or any code its just xml
 import UIKit
 
 class ViewController: UIViewController {
