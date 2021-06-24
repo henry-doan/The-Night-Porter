@@ -10,9 +10,17 @@
 // when draging controls, it doesn't generate swift or any code its just xml
 import UIKit
 
-class ViewController: UIViewController, UITableViewDataSource {
+class ViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
     
+    // Table view delegate methods
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        print("You selected row \(indexPath.row) in section \(indexPath.section)")
+    }
+    
+    // Table view data source methods
     func numberOfSections(in tableView: UITableView) -> Int {
+        tableView.backgroundColor = UIColor.clear
+        
         return 3
     }
     
@@ -42,6 +50,9 @@ class ViewController: UIViewController, UITableViewDataSource {
         default:
             cell.textLabel?.text = "This shouldn't happen"
         }
+        
+        cell.backgroundColor = UIColor.clear
+        
         return cell
     }
     
@@ -82,18 +93,14 @@ class ViewController: UIViewController, UITableViewDataSource {
     }
     
     @IBAction func changeBg(_ sender: Any) {
-        view.backgroundColor = UIColor.darkGray
-        // get all elements that are in the top view object
-        let everything = view.subviews
+        let mySwitch = sender as! UISwitch
         
-        for eachView in everything {
-            // is a label
-            if eachView is UILabel {
-                // downcast as uilabel
-                // ! force it to down cast or else it will give us errs
-                let currLbl = eachView as! UILabel
-                currLbl.textColor = UIColor.lightGray
-            }
+        if mySwitch.isOn {
+            view.backgroundColor = UIColor.darkGray
+
+        } else {
+            view.backgroundColor = UIColor.white
+
         }
     }
     
