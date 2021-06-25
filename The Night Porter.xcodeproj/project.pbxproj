@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		445652442685463B003443EA /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 445652432685463B003443EA /* Task.swift */; };
 		44CBD749264DE64C0035338B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44CBD748264DE64C0035338B /* AppDelegate.swift */; };
 		44CBD74B264DE64C0035338B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44CBD74A264DE64C0035338B /* SceneDelegate.swift */; };
 		44CBD74D264DE64C0035338B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44CBD74C264DE64C0035338B /* ViewController.swift */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		445652432685463B003443EA /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
 		44CBD745264DE64C0035338B /* The Night Porter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "The Night Porter.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		44CBD748264DE64C0035338B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		44CBD74A264DE64C0035338B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -102,6 +104,7 @@
 				44CBD748264DE64C0035338B /* AppDelegate.swift */,
 				44CBD74A264DE64C0035338B /* SceneDelegate.swift */,
 				44CBD74C264DE64C0035338B /* ViewController.swift */,
+				445652432685463B003443EA /* Task.swift */,
 				44CBD74E264DE64C0035338B /* Main.storyboard */,
 				44CBD751264DE64F0035338B /* Assets.xcassets */,
 				44CBD753264DE64F0035338B /* LaunchScreen.storyboard */,
@@ -258,6 +261,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				445652442685463B003443EA /* Task.swift in Sources */,
 				44CBD74D264DE64C0035338B /* ViewController.swift in Sources */,
 				44CBD749264DE64C0035338B /* AppDelegate.swift in Sources */,
 				44CBD74B264DE64C0035338B /* SceneDelegate.swift in Sources */,
