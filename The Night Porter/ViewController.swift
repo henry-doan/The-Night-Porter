@@ -12,6 +12,8 @@ import UIKit
 
 class ViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
     
+    @IBOutlet weak var taskTableView: UITableView!
+    
     // Table view delegate methods
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         print("You selected row \(indexPath.row) in section \(indexPath.section)")
@@ -143,6 +145,38 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         }
     }
     
-
+    @IBAction func resetList(_ sender: Any) {
+        
+        let confirm = UIAlertController(title: "Are you sure?", message: "Really reset the list?", preferredStyle: .alert)
+        
+        let yesAction = UIAlertAction(title: "Yes", style: .destructive) {
+            
+            action in
+            
+            for i in 0..<self.dailyTasks.count {
+                self.dailyTasks[i].completed = false
+            }
+            
+            for i in 0..<self.weeklyTasks.count {
+                self.weeklyTasks[i].completed = false
+            }
+            
+            for i in 0..<self.monthlyTasks.count {
+                self.monthlyTasks[i].completed = false
+            }
+            
+            self.taskTableView.reloadData()
+        }
+        
+        let noAction = UIAlertAction(title: "No", style: .cancel) {
+            action in
+            print("that was a close one!")
+        }
+        
+        confirm.addAction(yesAction)
+        confirm.addAction(noAction)
+        
+        present(confirm, animated: true, completion: nil)
+    }
 }
 
